@@ -9,6 +9,7 @@ import insertionSort from './algorithms/insertionSort'
 import selectionSort from './algorithms/selectionSort'
 import mergeSort from './algorithms/mergeSort'
 import quickSort from './algorithms/quickSort'
+import Footer from './components/Footer/Footer'
 
 function App() {
 	// Generating shuffled array of 1 to len
@@ -131,6 +132,7 @@ function App() {
 			/>
 
 			<Legends algo={algo}/>
+			<Footer/>
 		</div>
 	);
 }
